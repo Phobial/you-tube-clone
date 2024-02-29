@@ -39,6 +39,7 @@ nav{
     width: 30px;
     background-color:#676464ab;
     padding: 5px;
+    padding-right: -2px;
     border-radius: 50%;
 }
 .notification{
@@ -59,8 +60,35 @@ nav{
     width: 25px;
     margin-left: 150px;
 }
+form:hover{
+    box-shadow: 0 0 8px 1px rgb(126, 171, 228);
+}
 .form-control input{
     width: 400px;
     border: 0;
     outline: 0;
+}
+.menu{
+    margin-top: 70px;
+   align-items: center;
+   position: fixed;
+   height: 100%;
+   width: 120px;
+ 
+}
+.home{
+    height: 30px;
+
+}
+.subscription{
+    height: 35px;
+}
+.shorts{
+    height: 55px;
+}
+.you{
+    height: 30px;
+}
+.row{
+    margin-left:100px;
 }
